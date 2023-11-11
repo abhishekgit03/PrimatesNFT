@@ -34,6 +34,7 @@ function Card(props) {
       {props.btnText}
     </button>
   </div>
+  
 </div>
 {isProductOverviewVisible && (
   <Productoverview  imgSrc={props.imgSrc} imagename={props.username} onClose={() => setProductOverviewVisible(false)} />
